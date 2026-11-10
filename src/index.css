@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sq-accent: var(--sq-accent);
+  --color-sq-accentHover: var(--sq-accent-hover);
+  --color-sq-accentSoft: var(--sq-accent-soft);
+  --color-sq-bg: var(--sq-bg);
+  --color-sq-surface: var(--sq-surface);
+  --color-sq-surfaceAlt: var(--sq-surface-alt);
+  --color-sq-ink: var(--sq-ink);
+  --color-sq-muted: var(--sq-muted);
+  --color-sq-border: var(--sq-border);
+  --color-sq-sidebar: #141519;
+
+  --font-brand: "Baloo 2", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --shadow-tactile: 0 5px 0 0 var(--sq-shadow-edge), 0 12px 24px -6px var(--sq-shadow-glow);
+  --shadow-card: 0 18px 45px -15px rgba(18, 19, 22, 0.07), 0 0 1px 1px var(--sq-border);
+}
+
+/* Strictly 2 Research-Backed Palettes: Saffron Light vs OLED Dark */
+:root,
+[data-theme="saffron"] {
+  --sq-accent: #FF5500;
+  --sq-accent-hover: #E04800;
+  --sq-accent-soft: #FFF0E5;
+  --sq-bg: #FAF3EB;
+  --sq-surface: #FFFFFF;
+  --sq-surface-alt: #FDF8F3;
+  --sq-ink: #121316;
+  --sq-muted: #5E626C;
+  --sq-border: rgba(18, 19, 22, 0.11);
+  --sq-shadow-edge: #C23B00;
+  --sq-shadow-glow: rgba(255, 85, 0, 0.35);
+}
+
+[data-theme="oled"] {
+  --sq-accent: #FF6B1A;
+  --sq-accent-hover: #FF8533;
+  --sq-accent-soft: rgba(255, 107, 26, 0.16);
+  --sq-bg: #0B0C0E;
+  --sq-surface: #15171C;
+  --sq-surface-alt: #1C1F26;
+  --sq-ink: #F8FAFC;
+  --sq-muted: #94A3B8;
+  --sq-border: rgba(255, 255, 255, 0.12);
+  --sq-shadow-edge: #B84200;
+  --sq-shadow-glow: rgba(255, 107, 26, 0.25);
+}
+
+body {
+  background-color: var(--sq-bg);
+  color: var(--sq-ink);
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bg-dot-grid {
+  background-image: radial-gradient(rgba(128, 128, 128, 0.12) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+*:focus-visible {
+  outline: 3px solid var(--sq-accent);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+@keyframes shimmerSweep {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.skeleton-shimmer {
+  background: linear-gradient(90deg, rgba(148, 163, 184, 0.12) 25%, rgba(148, 163, 184, 0.28) 50%, rgba(148, 163, 184, 0.12) 75%);
+  background-size: 200% 100%;
+  animation: shimmerSweep 1.4s infinite linear;
+  border-radius: 16px;
+}
+
+@keyframes revealUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.anim-reveal-1 { animation: revealUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.04s both; }
+.anim-reveal-2 { animation: revealUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.12s both; }
+.anim-reveal-3 { animation: revealUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.20s both; }
+.anim-reveal-4 { animation: revealUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.28s both; }
+
+@keyframes swingSign {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3.5deg); }
+}
+.animate-swing-sign {
+  transform-origin: 210px 68px;
+  animation: swingSign 3.6s ease-in-out infinite;
+}
+
+/* Google Map Adaptive Inversion for True OLED Dark Mode */
+[data-theme="oled"] .google-map-frame {
+  filter: invert(90%) hue-rotate(180deg) contrast(115%) brightness(95%);
+}
+
+.btn-tactile {
+  transition: transform 140ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 140ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-tactile:active {
+  transform: translateY(3px);
+}
+
+.sq-pupil {
+  transition: transform 0.1s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+html.reduce-motion *, html.reduce-motion ::before, html.reduce-motion ::after {
+  animation: none !important;
+  transition: none !important;
+}

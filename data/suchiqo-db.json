@@ -1,0 +1,771 @@
+{
+  "version": "2.0.0-suchiqo-local-vault",
+  "creatorEmail": "aarushdixit2710@gmail.com",
+  "updatedAt": "2026-11-10T12:45:01.472Z",
+  "registeredCustomers": [
+    {
+      "id": "cust_1794314680021",
+      "name": "Aarush Dixit",
+      "phone": "9822011223",
+      "address": "Plot 42, Civil Lines, Near Main Market, Indore - 452001",
+      "formattedAddress": "Plot 42, Civil Lines, Near Main Market, Indore - 452001",
+      "flatOrHouse": "Plot 42, Civil Lines",
+      "areaOrStreet": "Indore (452001)",
+      "landmark": "Near Main Market",
+      "city": "Indore",
+      "pincode": "452001",
+      "addressTag": "Home",
+      "dietaryPreference": "all",
+      "createdAt": "10 Nov 2026",
+      "registeredAt": "10 Nov 2026",
+      "lastLoginAt": "10 Nov 2026"
+    },
+    {
+      "id": "cust_1794313156159",
+      "name": "aarush",
+      "phone": "8668648954",
+      "address": "405new nandanwan, new nandanwan, nagpur - 440024",
+      "formattedAddress": "405new nandanwan, new nandanwan, nagpur - 440024",
+      "flatOrHouse": "405new nandanwan",
+      "areaOrStreet": "nagpur (440024)",
+      "landmark": "new nandanwan",
+      "city": "nagpur",
+      "pincode": "440024",
+      "addressTag": "Home",
+      "dietaryPreference": "all",
+      "createdAt": "10 Nov 2026",
+      "registeredAt": "10 Nov 2026",
+      "lastLoginAt": "10 Nov 2026"
+    }
+  ],
+  "registeredStores": [
+    {
+      "id": "store_1794312648830",
+      "storeName": "Sharma General Kirana Store",
+      "ownerName": "Rajesh Sharma",
+      "address": "Near Ram Mandir, Sitabuldi Main Market, Nagpur",
+      "phone": "9822012345",
+      "lat": 21.1458,
+      "lng": 79.0882,
+      "gstin": "27AABCS1429B1Z5",
+      "upiVpa": "sharmageneralkiranastore@upi",
+      "isOpenForVoice": true,
+      "rating": 4.9,
+      "reviewCount": 125,
+      "userRatings": {
+        "9822012345": 5
+      }
+    }
+  ],
+  "shelf": [
+    {
+      "id": "sku_atta_5kg",
+      "name": "Aashirvaad Atta 5kg",
+      "category": "Atta, Rice & Dal",
+      "mrp": 280,
+      "price": 245,
+      "stock": 25,
+      "unit": "pack",
+      "emoji": "🌾"
+    },
+    {
+      "id": "sku_salt_1kg",
+      "name": "Tata Salt 1kg",
+      "category": "Spices & Oil",
+      "mrp": 30,
+      "price": 25,
+      "stock": 40,
+      "unit": "pack",
+      "emoji": "🧂"
+    },
+    {
+      "id": "sku_milk_1l",
+      "name": "Amul Taaza Milk 1L",
+      "category": "Dairy & Bread",
+      "mrp": 60,
+      "price": 56,
+      "stock": 29,
+      "unit": "pack",
+      "emoji": "🥛"
+    },
+    {
+      "id": "sku_rice_5kg",
+      "name": "India Gate Basmati Rice 5kg",
+      "category": "Atta, Rice & Dal",
+      "mrp": 520,
+      "price": 465,
+      "stock": 18,
+      "unit": "pack",
+      "emoji": "🍚"
+    },
+    {
+      "id": "sku_oil_1l",
+      "name": "Fortune Sunlite Oil 1L",
+      "category": "Spices & Oil",
+      "mrp": 165,
+      "price": 145,
+      "stock": 22,
+      "unit": "L",
+      "emoji": "🌻"
+    },
+    {
+      "id": "sku_dal_1kg",
+      "name": "Tata Sampann Toor Dal 1kg",
+      "category": "Atta, Rice & Dal",
+      "mrp": 195,
+      "price": 172,
+      "stock": 20,
+      "unit": "kg",
+      "emoji": "🍲"
+    },
+    {
+      "id": "sku_sugar_1kg",
+      "name": "Madhur Pure Sugar 1kg",
+      "category": "Atta, Rice & Dal",
+      "mrp": 60,
+      "price": 52,
+      "stock": 35,
+      "unit": "kg",
+      "emoji": "🍬"
+    },
+    {
+      "id": "sku_tea_500g",
+      "name": "Tata Tea Gold 500g",
+      "category": "Snacks & Beverages",
+      "mrp": 310,
+      "price": 285,
+      "stock": 15,
+      "unit": "pack",
+      "emoji": "☕"
+    },
+    {
+      "id": "sku_maggi_4pk",
+      "name": "Maggi Masala Noodles 4-Pack",
+      "category": "Snacks & Beverages",
+      "mrp": 60,
+      "price": 55,
+      "stock": 31,
+      "unit": "pack",
+      "emoji": "🍜"
+    },
+    {
+      "id": "sku_butter_100g",
+      "name": "Amul Pasteurised Butter 100g",
+      "category": "Dairy & Bread",
+      "mrp": 60,
+      "price": 56,
+      "stock": 24,
+      "unit": "pack",
+      "emoji": "🧈"
+    },
+    {
+      "id": "sku_biscuit_pk",
+      "name": "Britannia Good Day Cookies",
+      "category": "Snacks & Beverages",
+      "mrp": 40,
+      "price": 35,
+      "stock": 40,
+      "unit": "pack",
+      "emoji": "🍪"
+    },
+    {
+      "id": "sku_masala_100g",
+      "name": "Everest Garam Masala 100g",
+      "category": "Spices & Oil",
+      "mrp": 92,
+      "price": 82,
+      "stock": 28,
+      "unit": "pack",
+      "emoji": "🌶️"
+    },
+    {
+      "id": "sku_panipuri_kit",
+      "name": "Haldiram Pani Puri Golgappa Packet 50pcs",
+      "category": "Snacks & Beverages",
+      "mrp": 75,
+      "price": 60,
+      "stock": 28,
+      "unit": "pack",
+      "emoji": "🥙"
+    },
+    {
+      "id": "sku_panipuri_masala",
+      "name": "Everest Pani Puri & Jaljeera Masala 100g",
+      "category": "Spices & Oil",
+      "mrp": 55,
+      "price": 45,
+      "stock": 23,
+      "unit": "pack",
+      "emoji": "🌿"
+    },
+    {
+      "id": "sku_boondi_sev",
+      "name": "Haldiram Crispy Boondi & Sev Chaat Mix 200g",
+      "category": "Snacks & Beverages",
+      "mrp": 65,
+      "price": 52,
+      "stock": 27,
+      "unit": "pack",
+      "emoji": "🥣"
+    },
+    {
+      "id": "sku_imli_chutney",
+      "name": "Pichkoo Sweet Tamarind Imli Chutney 250g",
+      "category": "Spices & Oil",
+      "mrp": 85,
+      "price": 70,
+      "stock": 19,
+      "unit": "pack",
+      "emoji": "🍯"
+    },
+    {
+      "id": "sku_paneer_200g",
+      "name": "Amul Fresh Malai Paneer 200g",
+      "category": "Dairy & Bread",
+      "mrp": 95,
+      "price": 86,
+      "stock": 18,
+      "unit": "pack",
+      "emoji": "🧀"
+    },
+    {
+      "id": "sku_poha_500g",
+      "name": "Rajdhani Indori Thick Poha 500g",
+      "category": "Atta, Rice & Dal",
+      "mrp": 58,
+      "price": 48,
+      "stock": 25,
+      "unit": "pack",
+      "emoji": "🥣"
+    }
+  ],
+  "orders": [
+    {
+      "id": "#1001",
+      "customerName": "Aarush Dixit",
+      "items": "1 pack Haldiram Pani Puri Golgappa Packet 50pcs, 1 pack Everest Pani Puri & Jaljeera Masala 100g, 1 pack Haldiram Crispy Boondi & Sev Chaat Mix 200g, 1 pack Pichkoo Sweet Tamarind Imli Chutney 250g",
+      "total": 227,
+      "status": "Pending",
+      "createdAt": "12:45 PM",
+      "paymentMode": "UPI Instant Pay (GPay / PhonePe / Paytm) (customer@okaxis)",
+      "scheduledFor": "Instant Express Delivery (Within 10–15 Mins)",
+      "deliveryAddress": "Home: Plot 42, Civil Lines, Indore - 452001 (Near Main Market)",
+      "storeName": "Sharma General Kirana Store",
+      "handoverOtp": "2391",
+      "voiceTranscript": "⚡ Pani puri ka saara saman add kar do",
+      "mrpSavings": 53,
+      "lineItems": [
+        {
+          "skuId": "sku_panipuri_kit",
+          "name": "Haldiram Pani Puri Golgappa Packet 50pcs",
+          "qty": 1,
+          "unit": "pack",
+          "mrp": 75,
+          "price": 60,
+          "emoji": "🥙"
+        },
+        {
+          "skuId": "sku_panipuri_masala",
+          "name": "Everest Pani Puri & Jaljeera Masala 100g",
+          "qty": 1,
+          "unit": "pack",
+          "mrp": 55,
+          "price": 45,
+          "emoji": "🌿"
+        },
+        {
+          "skuId": "sku_boondi_sev",
+          "name": "Haldiram Crispy Boondi & Sev Chaat Mix 200g",
+          "qty": 1,
+          "unit": "pack",
+          "mrp": 65,
+          "price": 52,
+          "emoji": "🥣"
+        },
+        {
+          "skuId": "sku_imli_chutney",
+          "name": "Pichkoo Sweet Tamarind Imli Chutney 250g",
+          "qty": 1,
+          "unit": "pack",
+          "mrp": 85,
+          "price": 70,
+          "emoji": "🍯"
+        }
+      ]
+    },
+    {
+      "id": "#1002",
+      "customerName": "aarush",
+      "items": "1 pack Maggi Masala Noodles 4-Pack, 1 pack Tata Tea Gold 500g, 1 pack Amul Taaza Milk 1L",
+      "total": 396,
+      "status": "Pending",
+      "createdAt": "05:58 PM",
+      "paymentMode": "Cash on Delivery (Pay at Doorstep) • Keep change for ₹500",
+      "scheduledFor": "Instant Express Delivery (Within 10–15 Mins)",
+      "deliveryAddress": "Home: 405new nandanwan, nagpur - 440024 (Near new nandanwan)",
+      "storeName": "Sharma General Kirana Store",
+      "handoverOtp": "7261",
+      "voiceTranscript": "Theek Hai na payment would cash on delivery select PG and continue kariye",
+      "mrpSavings": 34,
+      "lineItems": [
+        {
+          "skuId": "sku_maggi_4pk",
+          "name": "Maggi Masala Noodles 4-Pack",
+          "qty": 1,
+          "unit": "pack",
+          "mrp": 60,
+          "price": 55,
+          "emoji": "🍜"
+        },
+        {
+          "skuId": "sku_tea_500g",
+          "name": "Tata Tea Gold 500g",
+          "qty": 1,
+          "unit": "pack",
+          "mrp": 310,
+          "price": 285,
+          "emoji": "☕"
+        },
+        {
+          "skuId": "sku_milk_1l",
+          "name": "Amul Taaza Milk 1L",
+          "qty": 1,
+          "unit": "pack",
+          "mrp": 60,
+          "price": 56,
+          "emoji": "🥛"
+        }
+      ]
+    },
+    {
+      "id": "#1001",
+      "customerName": "aarush",
+      "items": "1 pack Haldiram Pani Puri Golgappa Packet 50pcs, 1 pack Everest Pani Puri & Jaljeera Masala 100g",
+      "total": 105,
+      "status": "Delivered",
+      "createdAt": "05:49 PM",
+      "paymentMode": "UPI Instant Pay (GPay / PhonePe / Paytm) (customer@okaxis)",
+      "scheduledFor": "Instant Express Delivery (Within 10–15 Mins)",
+      "deliveryAddress": "Home: 405new nandanwan, nagpur - 440024 (Near new nandanwan)",
+      "storeName": "Sharma General Kirana Store",
+      "handoverOtp": "2927",
+      "voiceTranscript": "🥙 Pani puri bana sakte hain kya?",
+      "mrpSavings": 25,
+      "lineItems": [
+        {
+          "skuId": "sku_panipuri_kit",
+          "name": "Haldiram Pani Puri Golgappa Packet 50pcs",
+          "qty": 1,
+          "unit": "pack",
+          "mrp": 75,
+          "price": 60,
+          "emoji": "🥙"
+        },
+        {
+          "skuId": "sku_panipuri_masala",
+          "name": "Everest Pani Puri & Jaljeera Masala 100g",
+          "qty": 1,
+          "unit": "pack",
+          "mrp": 55,
+          "price": 45,
+          "emoji": "🌿"
+        }
+      ]
+    }
+  ],
+  "khata": [],
+  "cashbook": [],
+  "customerVoiceProfiles": {
+    "guest": {
+      "customerKey": "guest",
+      "customerName": "Guest Shopper",
+      "customerPhone": "",
+      "turns": [
+        {
+          "id": "vturn_1794313054724_b3y",
+          "timestamp": "12:17:34 PM",
+          "userText": "🥙 Pani puri bana sakte hain kya?",
+          "agentReply": "Arre wah! Aaj dukaan ke fresh stock ke hisaab se aap \"Chatpati Pani Puri / Golgappa Party\" bana sakte hain! Iske liye hamare paas Haldiram Pani Puri Golgappa Packet 50pcs (₹60), Everest Pani Puri & Jaljeera Masala 100g (₹45), Haldiram Crispy Boondi & Sev Chaat Mix 200g (₹52), Pichkoo Sweet Tamarind Imli Chutney 250g (₹70) stock mein bilkul tayyar hai (Combo कुल ₹227). Iske alawa aap \"Restaurant-Style Paneer Butter Masala\" (Amul Fresh Malai Paneer 200g, Amul Pasteurised Butter 100g, Everest Garam Masala 100g, Tata Salt 1kg, Aashirvaad Atta 5kg) bhi bana sakte hain. Boliye, kya main \"Chatpati Pani Puri / Golgappa Party\" ka saara saman aapke bag mein add kar doon?",
+          "intents": [
+            "recipe_recommendation"
+          ],
+          "recipeSuggested": "Chatpati Pani Puri / Golgappa Party"
+        },
+        {
+          "id": "vturn_1794310960875_94i",
+          "timestamp": "11:42:40 AM",
+          "userText": "hello",
+          "agentReply": "Namaste ji! Main aapki SuchiQO human kirana assistant bol rahi hoon. Mujhe yaad hai pichli baar humne \"hello\" par baat ki thi. Abhi dukaan ke shelf par koi item stock mein nahi hai. Boliye, aaj main aapki kya sewa karoon?",
+          "intents": [
+            "greeting_help"
+          ]
+        }
+      ],
+      "lastReferencedSkuIds": [
+        "sku_panipuri_kit",
+        "sku_panipuri_masala",
+        "sku_boondi_sev",
+        "sku_imli_chutney"
+      ],
+      "lastRecommendedRecipe": "Chatpati Pani Puri / Golgappa Party",
+      "favoriteItemNames": [],
+      "updatedAt": "2026-11-10T12:17:34.738Z"
+    },
+    "9822012345": {
+      "customerKey": "9822012345",
+      "customerName": "Rajesh Sharma",
+      "customerPhone": "9822012345",
+      "turns": [
+        {
+          "id": "vturn_1794312745867_ecd",
+          "timestamp": "12:12:25 PM",
+          "userText": "🧠 Tumhe mera pichla conversation yaad hai?",
+          "agentReply": "Ji haan Rajesh Sharma ji, mujhe hamari pichli baat-cheet achhi tarah yaad hai! Pichli baar aapne kaha tha: \"🧠 Tumhe mera pichla conversation yaad hai?\". Aapke pasandida items mein Haldiram Pani Puri Golgappa Packet 50pcs, Everest Pani Puri & Jaljeera Masala 100g, Haldiram Crispy Boondi & Sev Chaat Mix 200g shamil hain. Aur humne \"Chatpati Pani Puri / Golgappa Party\" recipe ke baare mein bhi baat ki thi. Boliye, kya main wahi saman aapke bag mein add kar doon?",
+          "intents": [
+            "memory_recall"
+          ],
+          "recipeSuggested": "Chatpati Pani Puri / Golgappa Party"
+        },
+        {
+          "id": "vturn_1794312729248_fr4",
+          "timestamp": "12:12:09 PM",
+          "userText": "⚡ Pani puri ka saara saman bag mein daal do",
+          "agentReply": "Bahut badhiya! \"Chatpati Pani Puri / Golgappa Party\" banane ke liye maine 1× Haldiram Pani Puri Golgappa Packet 50pcs, 1× Everest Pani Puri & Jaljeera Masala 100g, 1× Haldiram Crispy Boondi & Sev Chaat Mix 200g, 1× Pichkoo Sweet Tamarind Imli Chutney 250g (कुल ₹227) aapke kirana bag mein add kar diya hai!",
+          "intents": [
+            "recipe_bundle_add",
+            "cart_add"
+          ],
+          "recipeSuggested": "Chatpati Pani Puri / Golgappa Party"
+        },
+        {
+          "id": "vturn_1794312714139_xmq",
+          "timestamp": "12:11:54 PM",
+          "userText": "🥙 Pani puri bana sakte hain kya?",
+          "agentReply": "Arre wah! Aaj dukaan ke fresh stock ke hisaab se aap \"Chatpati Pani Puri / Golgappa Party\" bana sakte hain! Iske liye hamare paas Haldiram Pani Puri Golgappa Packet 50pcs (₹60), Everest Pani Puri & Jaljeera Masala 100g (₹45), Haldiram Crispy Boondi & Sev Chaat Mix 200g (₹52), Pichkoo Sweet Tamarind Imli Chutney 250g (₹70) stock mein bilkul tayyar hai (Combo कुल ₹227). Iske alawa aap \"Restaurant-Style Paneer Butter Masala\" (Amul Fresh Malai Paneer 200g, Amul Pasteurised Butter 100g, Everest Garam Masala 100g, Tata Salt 1kg, Aashirvaad Atta 5kg) bhi bana sakte hain. Boliye, kya main \"Chatpati Pani Puri / Golgappa Party\" ka saara saman aapke bag mein add kar doon?",
+          "intents": [
+            "recipe_recommendation"
+          ],
+          "recipeSuggested": "Chatpati Pani Puri / Golgappa Party"
+        }
+      ],
+      "lastReferencedSkuIds": [
+        "sku_panipuri_kit",
+        "sku_panipuri_masala",
+        "sku_boondi_sev",
+        "sku_imli_chutney"
+      ],
+      "lastRecommendedRecipe": "Chatpati Pani Puri / Golgappa Party",
+      "favoriteItemNames": [
+        "Haldiram Pani Puri Golgappa Packet 50pcs",
+        "Everest Pani Puri & Jaljeera Masala 100g",
+        "Haldiram Crispy Boondi & Sev Chaat Mix 200g",
+        "Pichkoo Sweet Tamarind Imli Chutney 250g"
+      ],
+      "updatedAt": "2026-11-10T12:12:25.867Z"
+    },
+    "8668648954": {
+      "customerKey": "8668648954",
+      "customerName": "aarush",
+      "customerPhone": "8668648954",
+      "turns": [
+        {
+          "id": "vturn_1794313650257_t4y",
+          "timestamp": "12:27:30 PM",
+          "userText": "Theek Hai na payment would cash on delivery select PG and continue kariye",
+          "agentReply": "Payment ke liye UPI (GPay, PhonePe, Paytm), Cash on Delivery (COD), Card at Doorstep, aur Digital Udhaar Khata charon options uplabdh hain.",
+          "intents": [
+            "payment_query"
+          ],
+          "recipeSuggested": "Restaurant-Style Paneer Butter Masala"
+        },
+        {
+          "id": "vturn_1794313601415_699",
+          "timestamp": "12:26:41 PM",
+          "userText": "Aaj Khan mein Kya Bana Sakta hoon",
+          "agentReply": "Arre wah! Aaj dukaan ke fresh stock ke hisaab se aap \"Restaurant-Style Paneer Butter Masala\" bana sakte hain! Iske liye hamare paas Amul Fresh Malai Paneer 200g (₹86), Amul Pasteurised Butter 100g (₹56), Everest Garam Masala 100g (₹82), Tata Salt 1kg (₹25), Aashirvaad Atta 5kg (₹245) stock mein bilkul tayyar hai (Combo कुल ₹494). Iske alawa aap \"Chatpati Pani Puri / Golgappa Party\" (Haldiram Pani Puri Golgappa Packet 50pcs, Everest Pani Puri & Jaljeera Masala 100g, Haldiram Crispy Boondi & Sev Chaat Mix 200g, Pichkoo Sweet Tamarind Imli Chutney 250g) bhi bana sakte hain. Boliye, kya main \"Restaurant-Style Paneer Butter Masala\" ka saara saman aapke bag mein add kar doon?",
+          "intents": [
+            "recipe_recommendation"
+          ],
+          "recipeSuggested": "Restaurant-Style Paneer Butter Masala"
+        },
+        {
+          "id": "vturn_1794313581335_wuz",
+          "timestamp": "12:26:21 PM",
+          "userText": "Can you give me suggestions according to the stock that you have that what I could cook today",
+          "agentReply": "Maaf kijiyega ji, abhi dukaan mein Can You Give stock mein uplabdh nahi hai. Abhi hamare paas Aashirvaad Atta 5kg (₹245), Tata Salt 1kg (₹25), Amul Taaza Milk 1L (₹56), India Gate Basmati Rice 5kg (₹465) stock mein uplabdh hai.",
+          "intents": [
+            "item_unavailable",
+            "stock_query"
+          ],
+          "recipeSuggested": "Chatpati Pani Puri / Golgappa Party"
+        },
+        {
+          "id": "vturn_1794313559477_1je",
+          "timestamp": "12:25:59 PM",
+          "userText": "So add a litre of milk for me",
+          "agentReply": "Ji bilkul! 1× Amul Taaza Milk 1L aapke cart mein add kar diya gaya hai!",
+          "intents": [
+            "cart_add"
+          ],
+          "recipeSuggested": "Chatpati Pani Puri / Golgappa Party"
+        },
+        {
+          "id": "vturn_1794313529863_0nr",
+          "timestamp": "12:25:29 PM",
+          "userText": "Do you have tomato ketchup as well",
+          "agentReply": "Maaf kijiyega ji, abhi dukaan mein You Have Tomato stock mein uplabdh nahi hai. Abhi hamare paas Aashirvaad Atta 5kg (₹245), Tata Salt 1kg (₹25), Amul Taaza Milk 1L (₹56), India Gate Basmati Rice 5kg (₹465) stock mein uplabdh hai.",
+          "intents": [
+            "item_unavailable",
+            "stock_query"
+          ],
+          "recipeSuggested": "Chatpati Pani Puri / Golgappa Party"
+        },
+        {
+          "id": "vturn_1794313504617_l8d",
+          "timestamp": "12:25:04 PM",
+          "userText": "Can I get a packet of Maggi and tomato ketchup as well as tea",
+          "agentReply": "Ji bilkul! 1× Maggi Masala Noodles 4-Pack aapke cart mein add kar diya gaya hai! Ji bilkul! 1× Tata Tea Gold 500g aapke cart mein add kar diya gaya hai!",
+          "intents": [
+            "cart_add"
+          ],
+          "recipeSuggested": "Chatpati Pani Puri / Golgappa Party"
+        },
+        {
+          "id": "vturn_1794313467357_lbu",
+          "timestamp": "12:24:27 PM",
+          "userText": "No not the team I want that I could have with tea",
+          "agentReply": "Ji bilkul! 1× Tata Tea Gold 500g aapke cart mein add kar diya gaya hai!",
+          "intents": [
+            "cart_add"
+          ],
+          "recipeSuggested": "Chatpati Pani Puri / Golgappa Party"
+        },
+        {
+          "id": "vturn_1794313450431_644",
+          "timestamp": "12:24:10 PM",
+          "userText": "What are the things that I could get today that I could have with tea",
+          "agentReply": "Ji bilkul! 1× Tata Tea Gold 500g aapke cart mein add kar diya gaya hai!",
+          "intents": [
+            "cart_add"
+          ],
+          "recipeSuggested": "Chatpati Pani Puri / Golgappa Party"
+        },
+        {
+          "id": "vturn_1794313416535_gds",
+          "timestamp": "12:23:36 PM",
+          "userText": "Hello",
+          "agentReply": "Namaste aarush ji! Main aapki SuchiQO human kirana assistant bol rahi hoon. Mujhe yaad hai pichli baar humne \"Hello\" par baat ki thi. Abhi dukaan mein 18 items stock mein uplabdh hain — aap mujhse \"Aaj khane mein kya banao?\" bhi pooch sakte hain! Boliye, aaj main aapki kya sewa karoon?",
+          "intents": [
+            "greeting_help"
+          ],
+          "recipeSuggested": "Chatpati Pani Puri / Golgappa Party"
+        },
+        {
+          "id": "vturn_1794313211607_w4u",
+          "timestamp": "12:20:11 PM",
+          "userText": "🥙 Pani puri bana sakte hain kya?",
+          "agentReply": "Arre wah! Aaj dukaan ke fresh stock ke hisaab se aap \"Chatpati Pani Puri / Golgappa Party\" bana sakte hain! Iske liye hamare paas Haldiram Pani Puri Golgappa Packet 50pcs (₹60), Everest Pani Puri & Jaljeera Masala 100g (₹45), Haldiram Crispy Boondi & Sev Chaat Mix 200g (₹52), Pichkoo Sweet Tamarind Imli Chutney 250g (₹70) stock mein bilkul tayyar hai (Combo कुल ₹227). Iske alawa aap \"Restaurant-Style Paneer Butter Masala\" (Amul Fresh Malai Paneer 200g, Amul Pasteurised Butter 100g, Everest Garam Masala 100g, Tata Salt 1kg, Aashirvaad Atta 5kg) bhi bana sakte hain. Boliye, kya main \"Chatpati Pani Puri / Golgappa Party\" ka saara saman aapke bag mein add kar doon?",
+          "intents": [
+            "recipe_recommendation"
+          ],
+          "recipeSuggested": "Chatpati Pani Puri / Golgappa Party"
+        }
+      ],
+      "lastReferencedSkuIds": [
+        "sku_paneer_200g",
+        "sku_butter_100g",
+        "sku_masala_100g",
+        "sku_salt_1kg",
+        "sku_atta_5kg"
+      ],
+      "lastRecommendedRecipe": "Restaurant-Style Paneer Butter Masala",
+      "favoriteItemNames": [
+        "Amul Taaza Milk 1L",
+        "Maggi Masala Noodles 4-Pack",
+        "Tata Tea Gold 500g"
+      ],
+      "updatedAt": "2026-11-10T12:27:30.257Z"
+    },
+    "9822011223": {
+      "customerKey": "9822011223",
+      "customerName": "Aarush Dixit",
+      "customerPhone": "9822011223",
+      "turns": [
+        {
+          "id": "vturn_1794314686218_4d7",
+          "timestamp": "12:44:46 PM",
+          "userText": "⚡ Pani puri ka saara saman add kar do",
+          "agentReply": "Bahut badhiya! \"Chatpati Pani Puri / Golgappa Party\" banane ke liye maine 1× Haldiram Pani Puri Golgappa Packet 50pcs, 1× Everest Pani Puri & Jaljeera Masala 100g, 1× Haldiram Crispy Boondi & Sev Chaat Mix 200g, 1× Pichkoo Sweet Tamarind Imli Chutney 250g (कुल ₹227) aapke kirana bag mein add kar diya hai!",
+          "intents": [
+            "recipe_bundle_add",
+            "cart_add"
+          ],
+          "recipeSuggested": "Chatpati Pani Puri / Golgappa Party"
+        }
+      ],
+      "lastReferencedSkuIds": [
+        "sku_panipuri_kit",
+        "sku_panipuri_masala",
+        "sku_boondi_sev",
+        "sku_imli_chutney"
+      ],
+      "lastRecommendedRecipe": "Chatpati Pani Puri / Golgappa Party",
+      "favoriteItemNames": [
+        "Haldiram Pani Puri Golgappa Packet 50pcs",
+        "Everest Pani Puri & Jaljeera Masala 100g",
+        "Haldiram Crispy Boondi & Sev Chaat Mix 200g",
+        "Pichkoo Sweet Tamarind Imli Chutney 250g"
+      ],
+      "updatedAt": "2026-11-10T12:44:46.218Z"
+    }
+  },
+  "auditLogs": [
+    {
+      "id": "audit_1794314686218_tht0",
+      "timestamp": "12:44:46 PM",
+      "category": "voice_brain",
+      "actor": "Aarush Dixit",
+      "summary": "Voice Query: \"⚡ Pani puri ka saara saman add kar do\" -> [recipe_bundle_add, cart_add]"
+    },
+    {
+      "id": "audit_1794314680047_5jxr",
+      "timestamp": "12:44:40 PM",
+      "category": "customer_auth",
+      "actor": "Aarush Dixit",
+      "summary": "New customer registered (9822011223) at Plot 42, Civil Lines, Indore (452001), Near Near Main Market, Indore, 452001"
+    },
+    {
+      "id": "audit_1794313650257_qrm6",
+      "timestamp": "12:27:30 PM",
+      "category": "voice_brain",
+      "actor": "aarush",
+      "summary": "Voice Query: \"Theek Hai na payment would cash on delivery select PG and continue kariye\" -> [payment_query]"
+    },
+    {
+      "id": "audit_1794313601415_ak2z",
+      "timestamp": "12:26:41 PM",
+      "category": "voice_brain",
+      "actor": "aarush",
+      "summary": "Voice Query: \"Aaj Khan mein Kya Bana Sakta hoon\" -> [recipe_recommendation]"
+    },
+    {
+      "id": "audit_1794313581335_l305",
+      "timestamp": "12:26:21 PM",
+      "category": "voice_brain",
+      "actor": "aarush",
+      "summary": "Voice Query: \"Can you give me suggestions according to the stock that you have that what I could cook today\" -> [item_unavailable, stock_query]"
+    },
+    {
+      "id": "audit_1794313559477_upek",
+      "timestamp": "12:25:59 PM",
+      "category": "voice_brain",
+      "actor": "aarush",
+      "summary": "Voice Query: \"So add a litre of milk for me\" -> [cart_add]"
+    },
+    {
+      "id": "audit_1794313529863_1jzh",
+      "timestamp": "12:25:29 PM",
+      "category": "voice_brain",
+      "actor": "aarush",
+      "summary": "Voice Query: \"Do you have tomato ketchup as well\" -> [item_unavailable, stock_query]"
+    },
+    {
+      "id": "audit_1794313504617_blbo",
+      "timestamp": "12:25:04 PM",
+      "category": "voice_brain",
+      "actor": "aarush",
+      "summary": "Voice Query: \"Can I get a packet of Maggi and tomato ketchup as well as tea\" -> [cart_add]"
+    },
+    {
+      "id": "audit_1794313467357_gatw",
+      "timestamp": "12:24:27 PM",
+      "category": "voice_brain",
+      "actor": "aarush",
+      "summary": "Voice Query: \"No not the team I want that I could have with tea\" -> [cart_add]"
+    },
+    {
+      "id": "audit_1794313450431_0nsg",
+      "timestamp": "12:24:10 PM",
+      "category": "voice_brain",
+      "actor": "aarush",
+      "summary": "Voice Query: \"What are the things that I could get today that I could have with tea\" -> [cart_add]"
+    },
+    {
+      "id": "audit_1794313416536_nnvz",
+      "timestamp": "12:23:36 PM",
+      "category": "voice_brain",
+      "actor": "aarush",
+      "summary": "Voice Query: \"Hello\" -> [greeting_help]"
+    },
+    {
+      "id": "audit_1794313211607_8eya",
+      "timestamp": "12:20:11 PM",
+      "category": "voice_brain",
+      "actor": "aarush",
+      "summary": "Voice Query: \"🥙 Pani puri bana sakte hain kya?\" -> [recipe_recommendation]"
+    },
+    {
+      "id": "audit_1794313156241_kruu",
+      "timestamp": "12:19:16 PM",
+      "category": "customer_auth",
+      "actor": "aarush",
+      "summary": "New customer registered (8668648954) at 405new nandanwan, nagpur (440024), Near new nandanwan, nagpur, 440024"
+    },
+    {
+      "id": "audit_1794313054738_1d6g",
+      "timestamp": "12:17:34 PM",
+      "category": "voice_brain",
+      "actor": "Guest Shopper",
+      "summary": "Voice Query: \"🥙 Pani puri bana sakte hain kya?\" -> [recipe_recommendation]"
+    },
+    {
+      "id": "audit_1794312745867_4hv4",
+      "timestamp": "12:12:25 PM",
+      "category": "voice_brain",
+      "actor": "Rajesh Sharma",
+      "summary": "Voice Query: \"🧠 Tumhe mera pichla conversation yaad hai?\" -> [memory_recall]"
+    },
+    {
+      "id": "audit_1794312729249_r8c3",
+      "timestamp": "12:12:09 PM",
+      "category": "voice_brain",
+      "actor": "Rajesh Sharma",
+      "summary": "Voice Query: \"⚡ Pani puri ka saara saman bag mein daal do\" -> [recipe_bundle_add, cart_add]"
+    },
+    {
+      "id": "audit_1794312714139_q5zd",
+      "timestamp": "12:11:54 PM",
+      "category": "voice_brain",
+      "actor": "Rajesh Sharma",
+      "summary": "Voice Query: \"🥙 Pani puri bana sakte hain kya?\" -> [recipe_recommendation]"
+    },
+    {
+      "id": "audit_1794312693919_eumy",
+      "timestamp": "12:11:33 PM",
+      "category": "store_registry",
+      "actor": "9822012345",
+      "summary": "Customer rated 5★ for Kirana \"Sharma General Kirana Store\" (New Avg: 4.9★, 125 reviews)"
+    },
+    {
+      "id": "audit_1794312665686_6gx4",
+      "timestamp": "12:11:05 PM",
+      "category": "inventory",
+      "actor": "Shopkeeper Console",
+      "summary": "Populated 18 Recipe & Kirana SKUs (including Pani Puri Kit, Pani Puri Masala, Boondi, Imli Chutney, Atta, Dal, Rice, Paneer) onto shop shelf."
+    },
+    {
+      "id": "audit_1794310960890_jdxy",
+      "timestamp": "11:42:40 AM",
+      "category": "voice_brain",
+      "actor": "Guest Shopper",
+      "summary": "Voice Query: \"hello\" -> [greeting_help]"
+    },
+    {
+      "id": "audit_init_1794310172688",
+      "timestamp": "11:29:32 AM",
+      "category": "creator_admin",
+      "actor": "aarushdixit2710@gmail.com",
+      "summary": "Initialized SuchiQO Local Persistent Database Vault (Zero Fake Data)."
+    }
+  ]
+}

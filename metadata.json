@@ -1,0 +1,6 @@
+{
+  "name": "SuchiQO — Hinglish Voice Commerce & Live GPS Kirana Map",
+  "description": "Speak naturally in Hinglish, grant GPS location access to discover registered local kirana stores, and manage live inventory and billing.",
+  "requestFramePermissions": ["microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
